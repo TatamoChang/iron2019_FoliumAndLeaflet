@@ -8,10 +8,23 @@
 .
 ├── README.md
 ├── article
-│   └── day16_foliumStart
-│       ├── myMap.html
-│       └── myMap.py
+│   ├── Folium\ and\ Leaflet.ipynb
+│   └── day16_foliumStart
+│       ├── myMap.html
+│       └── myMap.py
 ├── dist
-│   └── folium_myMap.jpg
+│   ├── README.md
+│   ├── folium_ImageOverlay.png
+│   ├── folium_TileLayer.jpg
+│   ├── folium_VideoOverlay.jpg
+│   ├── folium_WmsTileLayer.jpg
+│   ├── folium_addCircle.jpg
+│   ├── folium_addCircleMarker.jpg
+│   ├── folium_addPolygon.jpg
+│   ├── folium_addPolyline.jpg
+│   ├── folium_addRectangle.jpg
+│   ├── folium_myMap.jpg
+│   ├── noWrap_false.jpg
+│   └── noWrap_true.jpg
 └── requirements.txt
 ```
