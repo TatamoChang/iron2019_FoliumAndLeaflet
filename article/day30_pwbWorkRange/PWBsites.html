@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_9824083cde7440eb86e124931ddc3a09 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_9824083cde7440eb86e124931ddc3a09" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_9824083cde7440eb86e124931ddc3a09 = L.map(
+        'map_9824083cde7440eb86e124931ddc3a09', {
+        center: [22.983332, 120.577106],
+        zoom: 9,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_379a2488e8de48158afddcfe4c120142 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_9824083cde7440eb86e124931ddc3a09);
+    
+
+            var polygon_4973f5ba3c2c4951a72abf19ebc4c247 = L.polygon(
+                [[22.7107653015083, 120.293435908656], [22.7110055108194, 120.29318357279], [22.7110186500137, 120.293183505333], [22.7111013410318, 120.293242320803], [22.7113038110537, 120.293370050245], [22.711319448047, 120.293395725704], [22.7113243023856, 120.29341114838], [22.7113243763432, 120.293427890192], [22.7113232151194, 120.29343690968], [22.7111046579126, 120.293721324363], [22.7110939141255, 120.293723958941], [22.7110819612659, 120.293722735397], [22.7110676300606, 120.293722808917], [22.7110544761182, 120.2937215818], [22.7107651203419, 120.293435783046], [22.7107653015083, 120.293435908656], [22.7107653015083, 120.293435908656]],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffa",
+  "fillOpacity": 0.1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 1
+}
+                )
+                .addTo(map_9824083cde7440eb86e124931ddc3a09);
+            
+    
+            var popup_e65207b5e2d347c494ecefdcfa7dd3ee = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4533e10961464500847f73de7924ca41 = $('<div id="html_4533e10961464500847f73de7924ca41" style="width: 100.0%; height: 100.0%;">107年度楠梓區隆昌兒童遊戲場景觀改善工程</div>')[0];
+                popup_e65207b5e2d347c494ecefdcfa7dd3ee.setContent(html_4533e10961464500847f73de7924ca41);
+            
+
+            polygon_4973f5ba3c2c4951a72abf19ebc4c247.bindPopup(popup_e65207b5e2d347c494ecefdcfa7dd3ee)
+            ;
+
+            
+        
+    
+        polygon_4973f5ba3c2c4951a72abf19ebc4c247.bindTooltip(
+            '<div>'
+            + '取得工程資訊' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+
+            var polygon_4d4ea72714d345b1bb54b01d09da92a4 = L.polygon(
+                [[22.6275264333942, 120.320827986455], [22.6275264333942, 120.320827986455], [22.6274683048732, 120.320642954485], [22.6283319525044, 120.320334991783], [22.6283948367048, 120.320514845534], [22.6275264333942, 120.320827986455], [22.6275264333942, 120.320827986455]],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffa",
+  "fillOpacity": 0.1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 1
+}
+                )
+                .addTo(map_9824083cde7440eb86e124931ddc3a09);
+            
+    
+            var popup_ee2f273d25874b358d66433a37048ee4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0679b5b8f90e4649b16dfbec3459c133 = $('<div id="html_0679b5b8f90e4649b16dfbec3459c133" style="width: 100.0%; height: 100.0%;">107年度苓雅區01-綠-37景觀改善工程</div>')[0];
+                popup_ee2f273d25874b358d66433a37048ee4.setContent(html_0679b5b8f90e4649b16dfbec3459c133);
+            
+
+            polygon_4d4ea72714d345b1bb54b01d09da92a4.bindPopup(popup_ee2f273d25874b358d66433a37048ee4)
+            ;
+
+            
+        
+    
+        polygon_4d4ea72714d345b1bb54b01d09da92a4.bindTooltip(
+            '<div>'
+            + '取得工程資訊' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+
+            var polygon_d8b8602bc1d048da9a8f62578c891b83 = L.polygon(
+                [[22.6275264333942, 120.320827986455], [22.6275264333942, 120.320827986455], [22.6274683048732, 120.320642954485], [22.6283319525044, 120.320334991783], [22.6283948367048, 120.320514845534], [22.6275264333942, 120.320827986455], [22.6275264333942, 120.320827986455], [22.6293395697498, 120.320170448207], [22.6284568704527, 120.32049395611], [22.6284035622807, 120.3203191916], [22.6292814622881, 120.319990569905], [22.6293395479392, 120.320165302156], [22.6293395697498, 120.320170448207], [22.6293395697498, 120.320170448207]],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffa",
+  "fillOpacity": 0.1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 1
+}
+                )
+                .addTo(map_9824083cde7440eb86e124931ddc3a09);
+            
+    
+            var popup_f9c46ad93b6242ab8bf54c5fc71ea532 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_17a9526dc65943b28531fceb33db60c7 = $('<div id="html_17a9526dc65943b28531fceb33db60c7" style="width: 100.0%; height: 100.0%;">107年度苓雅區01-綠-37景觀改善工程</div>')[0];
+                popup_f9c46ad93b6242ab8bf54c5fc71ea532.setContent(html_17a9526dc65943b28531fceb33db60c7);
+            
+
+            polygon_d8b8602bc1d048da9a8f62578c891b83.bindPopup(popup_f9c46ad93b6242ab8bf54c5fc71ea532)
+            ;
+
+            
+        
+    
+        polygon_d8b8602bc1d048da9a8f62578c891b83.bindTooltip(
+            '<div>'
+            + '取得工程資訊' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+
+            var polygon_3898bb2f58fd42d8b0aec04c69d5b2f1 = L.polygon(
+                [[22.6207882220927, 120.290912917317], [22.6207531288094, 120.289461520223], [22.6220996971809, 120.289228114932], [22.6244007171691, 120.288701526106], [22.6266620004852, 120.287835378045], [22.6281059836401, 120.286942530161], [22.6298939845155, 120.286037594089], [22.6302621763299, 120.287163062617], [22.6281544370859, 120.288167438415], [22.6272063386785, 120.288815781458], [22.6258999683775, 120.289491696571], [22.6243451398706, 120.290179166089], [22.622149656689, 120.290797843644], [22.6207882220927, 120.290912917317], [22.6207882220927, 120.290912917317]],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffa",
+  "fillOpacity": 0.1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 1
+}
+                )
+                .addTo(map_9824083cde7440eb86e124931ddc3a09);
+            
+    
+            var popup_57bba3115c1240869f3b107bc21ffc4c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6ffed36cc83a4f71aa8d792ed904dd11 = $('<div id="html_6ffed36cc83a4f71aa8d792ed904dd11" style="width: 100.0%; height: 100.0%;">愛河沿線週邊水環境計畫-愛河沿線周邊景觀再造工程(第1標)</div>')[0];
+                popup_57bba3115c1240869f3b107bc21ffc4c.setContent(html_6ffed36cc83a4f71aa8d792ed904dd11);
+            
+
+            polygon_3898bb2f58fd42d8b0aec04c69d5b2f1.bindPopup(popup_57bba3115c1240869f3b107bc21ffc4c)
+            ;
+
+            
+        
+    
+        polygon_3898bb2f58fd42d8b0aec04c69d5b2f1.bindTooltip(
+            '<div>'
+            + '取得工程資訊' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+
+            var polygon_24e431cfa68c44a1b081e867874f6a8e = L.polygon(
+                [[22.6158570304356, 120.356272991721], [22.6158002332253, 120.356409660344], [22.6156182743378, 120.356317855666], [22.6156678701939, 120.356173497331], [22.6158546463574, 120.356273002816], [22.6158570304356, 120.356272991721], [22.6158570304356, 120.356272991721]],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffa",
+  "fillOpacity": 0.1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 1
+}
+                )
+                .addTo(map_9824083cde7440eb86e124931ddc3a09);
+            
+    
+            var popup_c42f5338af3e4fcdbb0cc3f74da137a6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_55cfa88a7fa5422a8d537ff21a7b6e35 = $('<div id="html_55cfa88a7fa5422a8d537ff21a7b6e35" style="width: 100.0%; height: 100.0%;">鳳山區八仙公園公廁改造工程</div>')[0];
+                popup_c42f5338af3e4fcdbb0cc3f74da137a6.setContent(html_55cfa88a7fa5422a8d537ff21a7b6e35);
+            
+
+            polygon_24e431cfa68c44a1b081e867874f6a8e.bindPopup(popup_c42f5338af3e4fcdbb0cc3f74da137a6)
+            ;
+
+            
+        
+    
+        polygon_24e431cfa68c44a1b081e867874f6a8e.bindTooltip(
+            '<div>'
+            + '取得工程資訊' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+
+            var polygon_449f20e0363e4b0faa439a66bc7de9f6 = L.polygon(
+                [[22.7119974641123, 120.299550922929], [22.7120504134322, 120.299638219621], [22.711687013722, 120.300680531194], [22.7114313790453, 120.301232970093], [22.7109714697359, 120.302064586848], [22.710579699456, 120.302082030152], [22.7108897828228, 120.301961988002], [22.7114875517177, 120.30096484823], [22.7116894928985, 120.300155133063], [22.7114250494496, 120.299785617712], [22.711477380833, 120.299733849736], [22.7118310017235, 120.299732051019], [22.7119927005575, 120.299556096393], [22.7119927231067, 120.299561245505], [22.7119974641123, 120.299550922929], [22.7119974641123, 120.299550922929]],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffa",
+  "fillOpacity": 0.1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 1
+}
+                )
+                .addTo(map_9824083cde7440eb86e124931ddc3a09);
+            
+    
+            var popup_d1c6396de99c4b4fb5831481e7f7525c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7ee9ec13d0eb46cda1637d3d88711ee0 = $('<div id="html_7ee9ec13d0eb46cda1637d3d88711ee0" style="width: 100.0%; height: 100.0%;">107年度楠梓區7號公園(莒光段一小段6地號等)開闢工程</div>')[0];
+                popup_d1c6396de99c4b4fb5831481e7f7525c.setContent(html_7ee9ec13d0eb46cda1637d3d88711ee0);
+            
+
+            polygon_449f20e0363e4b0faa439a66bc7de9f6.bindPopup(popup_d1c6396de99c4b4fb5831481e7f7525c)
+            ;
+
+            
+        
+    
+        polygon_449f20e0363e4b0faa439a66bc7de9f6.bindTooltip(
+            '<div>'
+            + '取得工程資訊' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+
+            var polygon_5990e66a987d424aabfa2df8330d9106 = L.polygon(
+                [[22.652350206805, 120.301443064918], [22.6523598058931, 120.301453310356], [22.6524271164304, 120.301545645068], [22.6524569994702, 120.301823519739], [22.6522868525981, 120.302256864238], [22.6523545122167, 120.302431578759], [22.6523936343555, 120.302637329346], [22.6524137821063, 120.302874057889], [22.6525286481103, 120.302914673454], [22.6527289469564, 120.302820986708], [22.6530062889353, 120.302860772202], [22.653027994077, 120.303457902658], [22.6523780185351, 120.30344059368], [22.6520721839368, 120.303442136577], [22.6519954545119, 120.303380740334], [22.651820155387, 120.302629922098], [22.6516066269026, 120.301879308866], [22.652350206805, 120.301443064918], [22.652350206805, 120.301443064918]],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffa",
+  "fillOpacity": 0.1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 1
+}
+                )
+                .addTo(map_9824083cde7440eb86e124931ddc3a09);
+            
+    
+            var popup_fb064e4dfb6f4fd0a32d0f3040679e15 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0079fc25e4e14c63ad08bf0bd7900b7b = $('<div id="html_0079fc25e4e14c63ad08bf0bd7900b7b" style="width: 100.0%; height: 100.0%;">高雄愛河之心設施改善工程</div>')[0];
+                popup_fb064e4dfb6f4fd0a32d0f3040679e15.setContent(html_0079fc25e4e14c63ad08bf0bd7900b7b);
+            
+
+            polygon_5990e66a987d424aabfa2df8330d9106.bindPopup(popup_fb064e4dfb6f4fd0a32d0f3040679e15)
+            ;
+
+            
+        
+    
+        polygon_5990e66a987d424aabfa2df8330d9106.bindTooltip(
+            '<div>'
+            + '取得工程資訊' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+
+            var polygon_f23f946fa7a44809abcb2541102120ca = L.polygon(
+                [[22.652350206805, 120.301443064918], [22.6523598058931, 120.301453310356], [22.6524271164304, 120.301545645068], [22.6524569994702, 120.301823519739], [22.6522868525981, 120.302256864238], [22.6523545122167, 120.302431578759], [22.6523936343555, 120.302637329346], [22.6524137821063, 120.302874057889], [22.6525286481103, 120.302914673454], [22.6527289469564, 120.302820986708], [22.6530062889353, 120.302860772202], [22.653027994077, 120.303457902658], [22.6523780185351, 120.30344059368], [22.6520721839368, 120.303442136577], [22.6519954545119, 120.303380740334], [22.651820155387, 120.302629922098], [22.6516066269026, 120.301879308866], [22.652350206805, 120.301443064918], [22.652350206805, 120.301443064918], [22.6528260502024, 120.3053742262], [22.6520512888477, 120.305233959512], [22.6521440895357, 120.304595060742], [22.6521324794838, 120.304121449731], [22.6520836171169, 120.303874562496], [22.6521694980872, 120.303843237803], [22.653010898818, 120.303921377031], [22.652888347626, 120.304313285387], [22.6526597336567, 120.304489494179], [22.6524779704004, 120.304449223993], [22.652402403053, 120.30465554326], [22.6526800573899, 120.304767418212], [22.6528628476983, 120.305044524579], [22.6528260055459, 120.305363922652], [22.6528260502024, 120.3053742262], [22.6528260502024, 120.3053742262]],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffa",
+  "fillOpacity": 0.1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 1
+}
+                )
+                .addTo(map_9824083cde7440eb86e124931ddc3a09);
+            
+    
+            var popup_c503c650eb4f422ca61cca816fce4a7c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b254b09d193b4afa81bac40d93980d41 = $('<div id="html_b254b09d193b4afa81bac40d93980d41" style="width: 100.0%; height: 100.0%;">高雄愛河之心設施改善工程</div>')[0];
+                popup_c503c650eb4f422ca61cca816fce4a7c.setContent(html_b254b09d193b4afa81bac40d93980d41);
+            
+
+            polygon_f23f946fa7a44809abcb2541102120ca.bindPopup(popup_c503c650eb4f422ca61cca816fce4a7c)
+            ;
+
+            
+        
+    
+        polygon_f23f946fa7a44809abcb2541102120ca.bindTooltip(
+            '<div>'
+            + '取得工程資訊' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+
+            var polygon_cdfea05356984523927fe661e2356b17 = L.polygon(
+                [[22.6182953001549, 120.340070501777], [22.6182573277798, 120.340132451539], [22.6182381253863, 120.340111950392], [22.618186532781, 120.341512290134], [22.6172313917356, 120.341660956714], [22.6171101916488, 120.340076156434], [22.6182953001549, 120.340070501777], [22.6182953001549, 120.340070501777]],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffa",
+  "fillOpacity": 0.1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 1
+}
+                )
+                .addTo(map_9824083cde7440eb86e124931ddc3a09);
+            
+    
+            var popup_209715f15aed4c0ead4de0effdbc8547 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0740d8e353d04b5784fcb57f2e462320 = $('<div id="html_0740d8e353d04b5784fcb57f2e462320" style="width: 100.0%; height: 100.0%;">衛武營都會公園內共融遊戲場改善工程</div>')[0];
+                popup_209715f15aed4c0ead4de0effdbc8547.setContent(html_0740d8e353d04b5784fcb57f2e462320);
+            
+
+            polygon_cdfea05356984523927fe661e2356b17.bindPopup(popup_209715f15aed4c0ead4de0effdbc8547)
+            ;
+
+            
+        
+    
+        polygon_cdfea05356984523927fe661e2356b17.bindTooltip(
+            '<div>'
+            + '取得工程資訊' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+
+            var polygon_026824f908c4457ca2cc5e49edcec87a = L.polygon(
+                [[22.5767010350024, 120.315563566982], [22.5767105455233, 120.315553231618], [22.5763834499395, 120.315050561315], [22.5760178539681, 120.314486324592], [22.5757477916634, 120.313911329628], [22.5756021018293, 120.313366605117], [22.5755518045344, 120.312780226428], [22.5756550893523, 120.31234746905], [22.5758258442238, 120.312048172908], [22.576158935077, 120.311717185376], [22.5765882220152, 120.311529804205], [22.5771136173423, 120.311465444175], [22.5778788691459, 120.311616017818], [22.5785683642238, 120.31193163431], [22.5790568461645, 120.312176212129], [22.5794014831647, 120.312308301731], [22.5797074091723, 120.312327360688], [22.5799843017533, 120.312264235281], [22.5802608949314, 120.312129071068], [22.5804516481729, 120.312035496923], [22.5805570022626, 120.312086436659], [22.5805954488949, 120.312137698898], [22.5806148309363, 120.312199354206], [22.5767010350024, 120.315563566982], [22.5767010350024, 120.315563566982]],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffa",
+  "fillOpacity": 0.1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 1
+}
+                )
+                .addTo(map_9824083cde7440eb86e124931ddc3a09);
+            
+    
+            var popup_61515e886012490283cf2322c606bd9e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1ce149875e5d49d4bee57b3f6690eec2 = $('<div id="html_1ce149875e5d49d4bee57b3f6690eec2" style="width: 100.0%; height: 100.0%;">漁港高架道路匝道橋下景觀(含排水設施)既有設施改善工程</div>')[0];
+                popup_61515e886012490283cf2322c606bd9e.setContent(html_1ce149875e5d49d4bee57b3f6690eec2);
+            
+
+            polygon_026824f908c4457ca2cc5e49edcec87a.bindPopup(popup_61515e886012490283cf2322c606bd9e)
+            ;
+
+            
+        
+    
+        polygon_026824f908c4457ca2cc5e49edcec87a.bindTooltip(
+            '<div>'
+            + '取得工程資訊' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+
+            var polygon_ecfb3f047df54f89a64119c4969afe9c = L.polygon(
+                [[22.6205350496028, 120.290989097209], [22.6205350496028, 120.290989097209], [22.6205449222482, 120.291061107358], [22.6203155027872, 120.291051991881], [22.6194344920736, 120.292827206754], [22.6194637082411, 120.292950594727], [22.6205558199955, 120.293531827914], [22.6205380620134, 120.293840764497], [22.6193500190358, 120.293177667457], [22.619235694707, 120.29326060339], [22.6173942196733, 120.293970051353], [22.6171166031918, 120.293868525661], [22.6169912291513, 120.293611804031], [22.6139158543743, 120.291928928853], [22.6139346539738, 120.291856775294], [22.615323776731, 120.292601157103], [22.6170195383643, 120.293529299408], [22.617135267704, 120.293765487525], [22.6172980159452, 120.293826424233], [22.6192159423516, 120.293116584136], [22.6202770038683, 120.290990420217], [22.6205350496028, 120.290989097209], [22.6205350496028, 120.290989097209]],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffa",
+  "fillOpacity": 0.1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 1
+}
+                )
+                .addTo(map_9824083cde7440eb86e124931ddc3a09);
+            
+    
+            var popup_710a0c1a6b704482838bf3a704b9ca6d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d3bdc626dc704e4e925c5ee30367a7ff = $('<div id="html_d3bdc626dc704e4e925c5ee30367a7ff" style="width: 100.0%; height: 100.0%;">苓雅區海邊路(苓安路-五福路)人行環境改善工程</div>')[0];
+                popup_710a0c1a6b704482838bf3a704b9ca6d.setContent(html_d3bdc626dc704e4e925c5ee30367a7ff);
+            
+
+            polygon_ecfb3f047df54f89a64119c4969afe9c.bindPopup(popup_710a0c1a6b704482838bf3a704b9ca6d)
+            ;
+
+            
+        
+    
+        polygon_ecfb3f047df54f89a64119c4969afe9c.bindTooltip(
+            '<div>'
+            + '取得工程資訊' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+
+            var polygon_2c037624359d40ffb38b03fa83f744c3 = L.polygon(
+                [[22.6680032299768, 120.305006740208], [22.6679232205681, 120.305290357713], [22.667516772144, 120.30523061401], [22.6675424700175, 120.305096599118], [22.6675529404674, 120.30503089296], [22.6675502960825, 120.304972979083], [22.667540663681, 120.304955006245], [22.6680044219956, 120.305006734204], [22.6680032299768, 120.305006740208], [22.6680032299768, 120.305006740208]],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffa",
+  "fillOpacity": 0.1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 1
+}
+                )
+                .addTo(map_9824083cde7440eb86e124931ddc3a09);
+            
+    
+            var popup_8fa8ecaf860c4f45aa7b1f94ce0b0459 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_838143fd7159408f905b423daec710b8 = $('<div id="html_838143fd7159408f905b423daec710b8" style="width: 100.0%; height: 100.0%;">107年度左營區05-兒-08(富民兒童遊戲場)景觀改善工程</div>')[0];
+                popup_8fa8ecaf860c4f45aa7b1f94ce0b0459.setContent(html_838143fd7159408f905b423daec710b8);
+            
+
+            polygon_2c037624359d40ffb38b03fa83f744c3.bindPopup(popup_8fa8ecaf860c4f45aa7b1f94ce0b0459)
+            ;
+
+            
+        
+    
+        polygon_2c037624359d40ffb38b03fa83f744c3.bindTooltip(
+            '<div>'
+            + '取得工程資訊' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+
+            var polygon_4f6c35c54c784e0b97a6ea294c974aad = L.polygon(
+                [[22.5727058181196, 120.366613924508], [22.5725505182876, 120.370875285411], [22.5722637138185, 120.370856001074], [22.5723470081436, 120.367727033869], [22.5690970612132, 120.367638948127], [22.5689369012769, 120.37066528264], [22.5681147949016, 120.370627843543], [22.5676157941841, 120.370115563118], [22.5677171405662, 120.366719047992], [22.5680977325772, 120.366285084643], [22.5725143415589, 120.366532474722], [22.5727058181196, 120.366613924508], [22.5727058181196, 120.366613924508]],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffa",
+  "fillOpacity": 0.1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 1
+}
+                )
+                .addTo(map_9824083cde7440eb86e124931ddc3a09);
+            
+    
+            var popup_31ee983778534e4183e316516c8bf833 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e4357dd8320a45af8aec22e194f66179 = $('<div id="html_e4357dd8320a45af8aec22e194f66179" style="width: 100.0%; height: 100.0%;">106年度高雄市小港區第89期重劃區少康營區公園開闢工程</div>')[0];
+                popup_31ee983778534e4183e316516c8bf833.setContent(html_e4357dd8320a45af8aec22e194f66179);
+            
+
+            polygon_4f6c35c54c784e0b97a6ea294c974aad.bindPopup(popup_31ee983778534e4183e316516c8bf833)
+            ;
+
+            
+        
+    
+        polygon_4f6c35c54c784e0b97a6ea294c974aad.bindTooltip(
+            '<div>'
+            + '取得工程資訊' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+
+            var polygon_e934c34861af4d3984a9a5ab2c0ce2e4 = L.polygon(
+                [[22.8907720162895, 120.483507511491], [22.8907887659039, 120.483515187082], [22.8907887826546, 120.483520343091], [22.8908891217658, 120.483514807278], [22.8909561369372, 120.48355065595], [22.8909066336006, 120.483757154587], [22.8906493491336, 120.483992801999], [22.8902989790183, 120.484259746383], [22.8900344650057, 120.484477368066], [22.8895743510003, 120.484796304069], [22.8892644231829, 120.485008938883], [22.8888682374054, 120.485147111685], [22.8888549199329, 120.484724233467], [22.8888883528404, 120.484716368371], [22.8889766437298, 120.484682516133], [22.8896759205613, 120.484434881527], [22.889940869553, 120.484351364498], [22.8901651574603, 120.484255096047], [22.8904082950923, 120.484076239599], [22.8906105949941, 120.483833061756], [22.8907720162895, 120.483507511491], [22.8907720162895, 120.483507511491]],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffa",
+  "fillOpacity": 0.1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 1
+}
+                )
+                .addTo(map_9824083cde7440eb86e124931ddc3a09);
+            
+    
+            var popup_13210e082e95450e860f0e0289446c61 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b9f7d6a3a9b64519a712a68a4686153f = $('<div id="html_b9f7d6a3a9b64519a712a68a4686153f" style="width: 100.0%; height: 100.0%;">107年度旗山區兒3及中華路側廣停用地開闢工程</div>')[0];
+                popup_13210e082e95450e860f0e0289446c61.setContent(html_b9f7d6a3a9b64519a712a68a4686153f);
+            
+
+            polygon_e934c34861af4d3984a9a5ab2c0ce2e4.bindPopup(popup_13210e082e95450e860f0e0289446c61)
+            ;
+
+            
+        
+    
+        polygon_e934c34861af4d3984a9a5ab2c0ce2e4.bindTooltip(
+            '<div>'
+            + '取得工程資訊' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+
+            var polygon_73da61a86e84444dafb4d7ca2858dd9e = L.polygon(
+                [[22.56724027886, 120.33909465867], [22.5673857838758, 120.339325516989], [22.5669750706874, 120.339681223362], [22.5668248471577, 120.339464545545], [22.56724027886, 120.33909465867], [22.56724027886, 120.33909465867], [22.56724027886, 120.33909465867]],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffa",
+  "fillOpacity": 0.1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 1
+}
+                )
+                .addTo(map_9824083cde7440eb86e124931ddc3a09);
+            
+    
+            var popup_d40d31e8cca34173bbacb4ac17ff34d0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f679482724014e05a02c13d3e6838ac5 = $('<div id="html_f679482724014e05a02c13d3e6838ac5" style="width: 100.0%; height: 100.0%;">107年度小港區環保公園及港南兒童遊戲場景觀改善工程</div>')[0];
+                popup_d40d31e8cca34173bbacb4ac17ff34d0.setContent(html_f679482724014e05a02c13d3e6838ac5);
+            
+
+            polygon_73da61a86e84444dafb4d7ca2858dd9e.bindPopup(popup_d40d31e8cca34173bbacb4ac17ff34d0)
+            ;
+
+            
+        
+    
+        polygon_73da61a86e84444dafb4d7ca2858dd9e.bindTooltip(
+            '<div>'
+            + '取得工程資訊' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+
+            var polygon_e301f78b543d46ee84c86831b1dbbb1c = L.polygon(
+                [[22.56724027886, 120.33909465867], [22.5673857838758, 120.339325516989], [22.5669750706874, 120.339681223362], [22.5668248471577, 120.339464545545], [22.56724027886, 120.33909465867], [22.56724027886, 120.33909465867], [22.56724027886, 120.33909465867], [22.5636353764759, 120.337985003677], [22.5636401324956, 120.337979837244], [22.5636401113146, 120.337974693616], [22.5637218380974, 120.338092648195], [22.5630405991778, 120.338610435713], [22.5629589151021, 120.338502768592], [22.5636353764759, 120.337985003677], [22.5636353764759, 120.337985003677]],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffa",
+  "fillOpacity": 0.1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 1
+}
+                )
+                .addTo(map_9824083cde7440eb86e124931ddc3a09);
+            
+    
+            var popup_dcf91af5f360402b9aa96f03e6ba292e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5617fa470fea45a1bbef8604d6fb4729 = $('<div id="html_5617fa470fea45a1bbef8604d6fb4729" style="width: 100.0%; height: 100.0%;">107年度小港區環保公園及港南兒童遊戲場景觀改善工程</div>')[0];
+                popup_dcf91af5f360402b9aa96f03e6ba292e.setContent(html_5617fa470fea45a1bbef8604d6fb4729);
+            
+
+            polygon_e301f78b543d46ee84c86831b1dbbb1c.bindPopup(popup_dcf91af5f360402b9aa96f03e6ba292e)
+            ;
+
+            
+        
+    
+        polygon_e301f78b543d46ee84c86831b1dbbb1c.bindTooltip(
+            '<div>'
+            + '取得工程資訊' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+                
+
+                map_9824083cde7440eb86e124931ddc3a09.fitBounds(
+                    [[22.5629589151021, 120.286037594089], [22.8909561369372, 120.485147111685]],
+                    {}
+                    );
+            
+</script>
